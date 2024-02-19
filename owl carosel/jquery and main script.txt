@@ -1,0 +1,29 @@
+//jquery in html tag
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+
+
+
+
+
+
+//script in the body tag
+<script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+</script>
